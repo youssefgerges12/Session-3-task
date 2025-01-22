@@ -1,0 +1,9 @@
+numbers = list(range(1, 21))
+
+divisible_by_3 = []
+
+for number in numbers:
+    if number % 3 == 0:  
+        divisible_by_3.append(number)
+
+print("Numbers divisible by 3:", divisible_by_3)
